@@ -1,0 +1,8 @@
+{
+    "@vk @smoke @in @jp @common Standalone - Create Insured": {
+        "testCaseID": 57868
+    },
+    "@smoke @in @jp @common Standalone - Create Alias": {
+        "testCaseID": 57869
+    }
+}

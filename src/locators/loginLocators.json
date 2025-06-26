@@ -1,0 +1,24 @@
+{
+  "loginlink": {
+    "locatorOptions": {},
+    "locator": "",
+    "description": "login link",
+    "actionOptions": {}
+  },
+  "username": {
+    "locator": "xpath=//input[@autocomplete='username']",
+    "description": "email id"
+  },
+  "passwordField": {
+    "locator": "xpath=//input[@type='password']",
+    "description": "login password"
+  },
+  "loginButton": {
+    "locator": "input[type='submit']",
+    "description": "login button"
+  },
+  "logoutButton": {
+    "locator": "xpath=//button[contains(text(), 'Logout')]",
+    "description": "logout button"
+  }
+}

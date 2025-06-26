@@ -1,0 +1,220 @@
+{
+    "searchIcon": {
+        "locator": "xpath=//*[@data-automation-id='search-nav']",
+        "description": "search icon",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "loanandtitle": {
+        "locator": "xpath=//a[contains(@class,'chakra-link')]/p[text()='Search']",
+        "description": "search title link",
+        "actionOptions": {
+            "timeout": 5000
+        },
+        "locatorOptions": {}
+    },
+    "insuredSearchLastName": {
+        "locator": "id=familyName",
+        "description": "last name input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "insuredSearchFirstName": {
+        "locator": "id=givenName",
+        "description": "first name input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "searchButton": {
+        "locator": "xpath=//button[text()='Search']",
+        "description": "search button",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "searchResultLastName": {
+        "locator": "xpath=//*[@data-testid='insuredSearchResultsTableStyle-familyName']",
+        "description": "search result lastname"
+    },
+    "searchResultFirstName": {
+        "locator": "xpath=//*[@data-testid='insuredSearchResultsTableStyle-givenName']/..",
+        "description": "search result firstname",
+        "actionOptions": {
+            "timeout": 10000
+        }
+    },
+    "searchMessageForNoResults": {
+        "locator": "xpath=//p[text()='No matching results found']",
+        "description": "no match message",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "createInsured": {
+        "locator": "xpath=//button[text()='CREATE NEW INSURED']",
+        "description": "create new insured button",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "clickInsuredID": {
+        "locator": "xpath=(//span[contains(@class,'chakra-checkbox')])[1]",
+        "description": "insured ID checkbox",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "clickCreateButton": {
+        "locator": "xpath=//section[@data-automation-id='create-new-insured']//footer//button[contains(text(),'Create')]",
+        "description": "click the create Button to Create New Insured/Alias",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "successMessage": {
+        "locator": "xpath=//*[@id='chakra-toast-manager-top-right']//div[@role='alert']/div[contains(text(),'was created')]",
+        "description": "check the success message",
+        "actionOptions": {
+            "timeout": 15000
+        },
+        "locatorOptions": {}
+    },
+    "createNewAlias": {
+        "locator": "xpath=//button[text()='CREATE NEW ALIAS']",
+        "description": "create new alias button",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "createInsuredFormContext": {
+        "locator": "xpath=//section[@data-automation-id='create-new-insured']",
+        "description": "create person dialog section",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "givenName": {
+        "locator": "xpath=//label[text()='FIRST NAME']/following-sibling::div//input[@id='givenName']",
+        "description": "given name input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "middleName": {
+        "locator": "xpath=//label[text()='MIDDLE NAME']/following-sibling::div//input[@id='middleName']",
+        "description": "middle name input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "completeName": {
+        "locator": "xpath=//label[text()='COMPLETE NAME']/following-sibling::div//input[@id='completeName']",
+        "description": "complete name input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "insuredIdCedant": {
+        "locator": "xpath=//label[text()='INSURED ID (CED)']/following-sibling::div//input[@id='insuredIdCedant']",
+        "description": "insured ID Cedant input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "insuredIdRga": {
+        "locator": "xpath=//label[text()='INSURED ID (RGA)']/following-sibling::div//input[@id='insuredIdRga']",
+        "description": "insured ID RGA input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+    "dateOfBirth": {
+        "locator": "xpath=//section[@data-automation-id='create-new-insured']//input[@id='dateOfBirth']",
+        "description": "insured DOB input",
+        "actionOptions": {
+            "timeout": 10000
+        },
+        "locatorOptions": {}
+    },
+        "genderDropdown": {
+            "locator": "xpath=//label[text()='GENDER']/following-sibling::div//input[@placeholder='Select one']",
+            "description": "gender dropdown trigger",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "alternateName": {
+            "locator": "xpath=//label[text()='ALTERNATE NAME']/following-sibling::div//input[@name='alternateName.0//.name']",
+            "description": "alternate name input",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "prefix": {
+            "locator": "xpath=//label[text()='PREFIX']/following-sibling::div//input[@id='prefix']",
+            "description": "prefix input",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "suffix": {
+            "locator": "xpath=//label[text()='SUFFIX']/following-sibling::div//input[@id='suffix']",
+            "description": "suffix input",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "birthCountry": {
+            "locator": "xpath=//label[text()='BIRTH COUNTRY']/following-sibling::div//input[@placeholder='Select one']",
+            "description": "birth country dropdown",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "idType": {
+            "locator": "xpath=//label[text()='NATIONAL ID']/following-sibling::div//input[@placeholder='Select type']",
+            "description": "ID type dropdown",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "nationalId": {
+            "locator": "xpath=//label[text()='NATIONAL ID']/following-sibling::div//input[@id='nationalId']",
+            "description": "national ID input",
+            "actionOptions": {
+                "timeout": 10000
+            },
+            "locatorOptions": {}
+        },
+        "aliasSuccessMessage": {
+            "locator": "xpath=//label[text()='NATIONAL ID']/following-sibling::div//input[@id='nationalId']",
+            "description": "Check the message",
+            "actionOptions": {
+                "timeout": 10000
+            }
+        }
+    }
