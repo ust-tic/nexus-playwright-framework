@@ -20,7 +20,9 @@
   "homepage": "https://github.com/ust-tic/nexus-playwright-framework#readme",
   "devDependencies": {
     "@playwright/test": "^1.53.1",
+    "@types/mocha": "^10.0.10",
     "@types/node": "^24.0.4",
+    "@types/winston": "^2.4.4",
     "dotenv": "^16.5.0",
     "playwright": "^1.53.1",
     "typescript": "^5.8.3"
