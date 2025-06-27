@@ -1,11 +1,8 @@
-import { page } from '@playwright/test';
+import { Page, page } from '@playwright/test';
 import { Browser } from 'playwright';
 import { launchBrowser } from '../utils/browser/browserFactory';
 import { logger } from '../utils/logger/winstonLogger';
-import { testData } from '../utils/testData/dataTest';
-import { fileUtils } from '../utils/helpers/fileUtils';
-import { envConfig } from '../utils/config/envConfig';
-import { allureLogger } from 'allure-playwright';
+import { testData } from '../testdata/';
 import fs from 'fs';
 import path from 'path';
 
